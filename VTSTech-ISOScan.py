@@ -45,7 +45,7 @@ if (needle == str("")):
 	sys.exit()
 	
 if (len(ext) >=1):
-	print("Target Header: "+str(needle)+" Filtered File Extention: "+str.upper(ext)+"\n")
+	print("Target Header: "+str(needle)+", Filtered File Extension: "+str.upper(ext)+"\n")
 else:
 	print("Target Header: "+str(needle)+"\n")
 
